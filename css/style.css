@@ -48,6 +48,12 @@ body.fh5co-offcanvas {
   height: 100%;
 }
 
+.postit {
+  width: 1200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 a {
   color: #2da9d7;
   -webkit-transition: 0.5s;
