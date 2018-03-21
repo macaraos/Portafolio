@@ -20,9 +20,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
-body.fh5co-offcanvas {
-  overflow: hidden;
-}
+
 
 .lista {
   list-style: none;
@@ -44,14 +42,14 @@ body.fh5co-offcanvas {
 }
 
 .totem {
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
 }
 
 .postit {
-  width: 1200px;
-  height: 200px;
-  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
 }
 
 a {
