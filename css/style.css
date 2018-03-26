@@ -52,6 +52,14 @@ body {
   margin-left: 25%;
 }
 
+.foto1 {
+  width: 200px;
+}
+
+.foto2 {
+  width: 300px;
+}
+
 a {
   color: #2da9d7;
   -webkit-transition: 0.5s;
@@ -289,9 +297,4 @@ figure {
     margin-left: 9% !important;
 }
 
-@media screen and (max-width: 480px) {
-  #fh5co-projects-feed .fh5co-projects-feed clearfix masonry {
-    margin-left: 20%;
-  }
-}
 /*# sourceMappingURL=style.css.map */
