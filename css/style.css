@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 25px;
   background: #fff;
   color: #848484;
   font-weight: 300;
@@ -282,4 +282,16 @@ figure {
   }
 }
 
+
+#fh5co-projects-feed.fh5co-projects-feed.clearfix.masonry element.style {
+    position: relative;
+    height: 695px;
+    margin-left: 9% !important;
+}
+
+@media screen and (max-width: 480px) {
+  #fh5co-projects-feed .fh5co-projects-feed clearfix masonry {
+    margin-left: 20%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
