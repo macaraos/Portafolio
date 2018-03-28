@@ -139,7 +139,8 @@ figure {
   #fh5co-header nav ul li a {
     padding: 5px;
   }
-}
+  }
+
 #fh5co-header nav ul li a:hover, #fh5co-header nav ul li a:active, #fh5co-header nav ul li a:focus {
   color: #000 !important;
   text-decoration: none;
@@ -278,6 +279,9 @@ figure {
 @media screen and (max-width: 480px) {
   .pt70 {
     padding-top: 30px;
+  }
+  #fh5co-projects-feed {
+    margin-left: -0% !important;
   }
 }
 
