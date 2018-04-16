@@ -21,6 +21,9 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  border-radius: 7px;
+}
 
 .lista {
   list-style: none;
@@ -47,13 +50,20 @@ body {
 }
 
 .postit {
-  width: 50%;
+  width: 70%;
   height: 50%;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 .foto1 {
   width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .foto1 {
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
 }
 
 .foto2 {
@@ -146,9 +156,11 @@ figure {
   text-decoration: none;
   outline: none;
 }
+
 #fh5co-header nav ul li.active a {
-  text-decoration: line-through !important;
-  color: black !important;
+  background-color: #fbdae4;
+  border-radius: 7px;
+  color: #777777 !important;
 }
 
 .fh5co-projects-feed, .footer-content {
@@ -181,7 +193,7 @@ figure {
   transition: 0.3s;
 }
 .fh5co-projects-feed .fh5co-project > a:hover h2, .fh5co-projects-feed .fh5co-project > a:active h2, .fh5co-projects-feed .fh5co-project > a:focus h2 {
-  color: #000;
+  color: #f7b0c5;
 }
 
 .masonry,
